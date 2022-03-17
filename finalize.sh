@@ -1,1 +1,1 @@
-gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=Correlated_Authorization.pdf README.pdf pdfmarks
+gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=Authorization-Enhanced_Mail_System.pdf README.pdf pdfmarks
