@@ -98,7 +98,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id3">
         <rect class="BoundingBox" stroke="none" fill="none" x="5097" y="1656" width="4497" height="2059"/>
-        <path fill="rgb(180,199,220)" stroke="none" d="M 7345,3701 L 5110,3701 5110,1669 9580,1669 9580,3701 7345,3701 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 7345,3701 L 5110,3701 5110,1669 9580,1669 9580,3701 7345,3701 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="5646" y="2883"><tspan fill="rgb(0,0,0)" stroke="none">Mail System</tspan></tspan></tspan></text>
        </g>
@@ -106,7 +105,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id4">
         <rect class="BoundingBox" stroke="none" fill="none" x="20215" y="1656" width="4497" height="2059"/>
-        <path fill="rgb(180,199,220)" stroke="none" d="M 22463,3701 L 20228,3701 20228,1669 24698,1669 24698,3701 22463,3701 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 22463,3701 L 20228,3701 20228,1669 24698,1669 24698,3701 22463,3701 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="20764" y="2883"><tspan fill="rgb(0,0,0)" stroke="none">Mail System</tspan></tspan></tspan></text>
        </g>
@@ -126,7 +124,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id7">
         <rect class="BoundingBox" stroke="none" fill="none" x="5097" y="5893" width="4497" height="2059"/>
-        <path fill="rgb(247,209,213)" stroke="none" d="M 7345,7938 L 5110,7938 5110,5906 9580,5906 9580,7938 7345,7938 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 7345,7938 L 5110,7938 5110,5906 9580,5906 9580,7938 7345,7938 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="5866" y="6824"><tspan fill="rgb(0,0,0)" stroke="none">Correlated</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="5447" y="7416"><tspan fill="rgb(0,0,0)" stroke="none">Authorization</tspan></tspan></tspan></text>
        </g>
@@ -134,7 +131,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id8">
         <rect class="BoundingBox" stroke="none" fill="none" x="5088" y="9990" width="4497" height="1562"/>
-        <path fill="rgb(180,199,220)" stroke="none" d="M 7336,11538 L 5101,11538 5101,10003 9571,10003 9571,11538 7336,11538 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 7336,11538 L 5101,11538 5101,10003 9571,10003 9571,11538 7336,11538 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="5264" y="10940"><tspan fill="rgb(0,0,0)" stroke="none">Email Application</tspan></tspan></tspan></text>
        </g>
@@ -142,7 +138,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id9">
         <rect class="BoundingBox" stroke="none" fill="none" x="20215" y="5893" width="4497" height="2059"/>
-        <path fill="rgb(247,209,213)" stroke="none" d="M 22463,7938 L 20228,7938 20228,5906 24698,5906 24698,7938 22463,7938 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 22463,7938 L 20228,7938 20228,5906 24698,5906 24698,7938 22463,7938 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="20984" y="6824"><tspan fill="rgb(0,0,0)" stroke="none">Correlated</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="494px" font-weight="700"><tspan class="TextPosition" x="20565" y="7416"><tspan fill="rgb(0,0,0)" stroke="none">Authorization</tspan></tspan></tspan></text>
        </g>
@@ -150,7 +145,6 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id10">
         <rect class="BoundingBox" stroke="none" fill="none" x="20240" y="9990" width="4497" height="1562"/>
-        <path fill="rgb(180,199,220)" stroke="none" d="M 22488,11538 L 20253,11538 20253,10003 24723,10003 24723,11538 22488,11538 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 22488,11538 L 20253,11538 20253,10003 24723,10003 24723,11538 22488,11538 Z"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="20416" y="10940"><tspan fill="rgb(0,0,0)" stroke="none">Email Application</tspan></tspan></tspan></text>
        </g>
