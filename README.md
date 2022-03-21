@@ -11,7 +11,7 @@
 &emsp;<strong><em>Abstract</em></strong>—Electronic mail (email) is the most pervasive form of business information exchange. Email is often used not only as an interpersonal communication tool but also as the default choice to send files. In this paper, the Correlated Authorization [1] mail trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
 </p>
 <p class="abstract">
-&emsp;Today, outgoing mail is typically transferred from the source system to the destination system as a single text-encoded file using Simple Mail Transfer Protocol (SMTP). SMTP is an over 40-year-old push-based protocol that emerged long before the World Wide Web became popular. Despite the fact that SMTP has been updated, modified, and extended multiple times to increase security and efficiency, it still lags behind modern web-based protocols. The Correlated Authorization framework introduces a resource server and an authorization server into the mail system. The resource server is generally accessed by HTTP pull-based protocol. The two-way push-pull data transfer combined with a data storage system controlled by the standardized authorization protocol significantly leverages email security and enhances mail system utilization.
+&emsp;Today, outgoing mail is typically transferred from the source system to the destination system as a single text-encoded file using Simple Mail Transfer Protocol (SMTP). SMTP is an over 40-year-old push-based protocol that emerged long before the World Wide Web became popular. Despite the fact that SMTP has been updated, modified, and extended multiple times to increase security and efficiency, it still lags behind modern web-based protocols. The Correlated Authorization framework introduces a resource server and an authorization server into the mail system. The resource server is generally accessed by HTTP pull-based protocol. The two-way push-pull data transfer mechanism combined with a data storage system controlled by the standardized authorization protocol significantly leverages email security and enhances mail system utilization.
 </p>
 
 ## I. Introduction
@@ -42,14 +42,14 @@ Today, if we as users want to use a single email address, we have no choice but 
 
 &emsp;Email, still the most popular communication tool, lacks an essential part of today’s modern communications systems—a trust framework. Understanding this led us to implement a trust framework into the email ecosystem. At the core of the proposed solution is an attempt to improve the usability of email—not only as an interpersonal communication tool but also as the default choice to send and store files.
 
-#### *B. Main Concept*
+#### *B. Concept*
 
 &emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization while keeping compatibility with the current mail system. We propose to integrate the Correlated Authorization framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of the email resource servers. A proprietary email application will be used to access the email resources, as illustrated in Figure 1.
 
-![Authorization-Enhanced Mail System](./images/main_concept.svg)
+![Authorization-Enhanced Mail System](./images/concept.svg)
 
 <p class="figure">
-Fig.&nbsp;1.&emsp;Main concept
+Fig.&nbsp;1.&emsp;Concept
 </p>
 
 ## References
