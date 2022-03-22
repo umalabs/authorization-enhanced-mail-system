@@ -25,7 +25,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 1. An email comprises resources (message and attachments) stored in a RESTful mailbox—an email-specific resource server.
 2. The email resources owned by the sender, stored in a sender’s RESTful mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resource identifier is sent to the recipient through the standard email system.
-3. The recipient’s client, which acts on behalf of the recipient, retrieves the notification email, gets delegated access using an authorization grant, and downloads the email resources from the sender’s RESTful mailbox. The downloaded data are stored in the recipient's RESTful mailbox.
+3. The recipient’s agent, which acts on behalf of the recipient, retrieves the notification email, gets delegated access using an authorization grant, and downloads the email resources from the sender’s RESTful mailbox. The downloaded data are stored in the recipient's RESTful mailbox.
 
 ## Advantages over Current Mail System
 
