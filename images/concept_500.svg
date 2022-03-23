@@ -122,7 +122,7 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id5">
-        <rect class="BoundingBox" stroke="none" fill="none" x="13730" y="2089" width="3138" height="770"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="13731" y="2089" width="3137" height="770"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="13981" y="2642"><tspan fill="rgb(0,0,0)" stroke="none">SMTP push</tspan></tspan></tspan></text>
        </g>
       </g>
@@ -166,7 +166,7 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id11">
-        <rect class="BoundingBox" stroke="none" fill="none" x="27263" y="5237" width="3150" height="1277"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="27263" y="5237" width="3151" height="1277"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="27513" y="5790"><tspan fill="rgb(0,0,0)" stroke="none">SMTP</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="27513" y="6297"><tspan fill="rgb(0,0,0)" stroke="none">POP3/IMAP</tspan></tspan></tspan></text>
        </g>
       </g>
@@ -235,7 +235,7 @@
         <rect class="BoundingBox" stroke="none" fill="none" x="8286" y="7690" width="4726" height="1562"/>
         <path fill="rgb(247,209,213)" stroke="none" d="M 10649,9238 L 8299,9238 8299,7703 12998,7703 12998,9238 10649,9238 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 10649,9238 L 8299,9238 8299,7703 12998,7703 12998,9238 10649,9238 Z"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="8538" y="8387"><tspan fill="rgb(0,0,0)" stroke="none">Resource Mailbox</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="9709" y="8894"><tspan fill="rgb(0,0,0)" stroke="none">bar.com</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="8538" y="8387"><tspan fill="rgb(0,0,0)" stroke="none">Resource Mailbox</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="8687" y="8894"><tspan fill="rgb(0,0,0)" stroke="none">mailbox.bar.com</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -259,7 +259,7 @@
         <rect class="BoundingBox" stroke="none" fill="none" x="17586" y="7690" width="4726" height="1562"/>
         <path fill="rgb(247,209,213)" stroke="none" d="M 19949,9238 L 17599,9238 17599,7703 22298,7703 22298,9238 19949,9238 Z"/>
         <path fill="none" stroke="rgb(0,0,0)" stroke-width="26" stroke-linejoin="miter" d="M 19949,9238 L 17599,9238 17599,7703 22298,7703 22298,9238 19949,9238 Z"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="17838" y="8387"><tspan fill="rgb(0,0,0)" stroke="none">Resource Mailbox</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="18960" y="8894"><tspan fill="rgb(0,0,0)" stroke="none">baz.com</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="17838" y="8387"><tspan fill="rgb(0,0,0)" stroke="none">Resource Mailbox</tspan></tspan></tspan><tspan ooo:numbering-type="number-style" class="ListItem" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="17938" y="8894"><tspan fill="rgb(0,0,0)" stroke="none">mailbox.baz.com</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
@@ -280,13 +280,13 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id26">
-        <rect class="BoundingBox" stroke="none" fill="none" x="9383" y="70" width="2384" height="770"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="9382" y="70" width="2385" height="770"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="9633" y="623"><tspan fill="rgb(0,0,0)" stroke="none">bar.com</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id27">
-        <rect class="BoundingBox" stroke="none" fill="none" x="18734" y="71" width="2481" height="770"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="18734" y="71" width="2482" height="770"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="18984" y="624"><tspan fill="rgb(0,0,0)" stroke="none">baz.com</tspan></tspan></tspan></text>
        </g>
       </g>
@@ -316,7 +316,7 @@
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id31">
-        <rect class="BoundingBox" stroke="none" fill="none" x="13901" y="9690" width="2799" height="770"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="13902" y="9690" width="2798" height="770"/>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Syntax" font-size="423px" font-weight="700"><tspan class="TextPosition" x="14152" y="10243"><tspan fill="rgb(0,0,0)" stroke="none">HTTP pull</tspan></tspan></tspan></text>
        </g>
       </g>
