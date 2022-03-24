@@ -32,7 +32,7 @@
 
 #### *C. Confidentiality and Privacy*
 
-&emsp;If we as users want to use a single email address, we have no choice but to use one mail service provider for all categories of communication. Information about every email we send or receive—"buying a car or a home, applying for a loan, taking out insurance, purchasing potato chips, requesting a government grant, getting turned down for credit, going to work, seeing a doctor" [5]—is routed through a single mail service provider. We can call it a One-Address-Fits-All privacy issue.
+&emsp;Now, if we (as users) want to use a single email address, we have no choice but to use one mail service provider for all categories of communication. Information about every email we send or receive—"buying a car or a home, applying for a loan, taking out insurance, purchasing potato chips, requesting a government grant, getting turned down for credit, going to work, seeing a doctor" [5]—is routed through a single mail service provider. We can call it a One-Address-Fits-All privacy issue.
 
 ## III. Proposed Solution
 
