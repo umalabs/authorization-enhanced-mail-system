@@ -15,7 +15,7 @@ This paper intends to explain how the trust framework, Correlated Authorization 
 
  AEMS follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
 
-![Authorization-Enhanced Mail System](./images/concept_500.svg)
+![Authorization-Enhanced Mail System](./images/concept.svg)
 
 <p class="figure">
 Fig.&nbsp;1.&emsp;Concept
