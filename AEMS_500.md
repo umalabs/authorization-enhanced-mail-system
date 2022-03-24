@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This paper intends to explain how the mail trust framework, Correlated Authorization [1], can improve the current mail system.
+This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
 
 ## Concept
 
@@ -30,11 +30,11 @@ Fig.&nbsp;1.&emsp;Concept
 ## Advantages over Standard Mail System
 
 * Security and Privacy: User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
-* Usability: The resource mailbox is decoupled from the user's email address. This allows a user with a single email address to use multiple resource mailboxes simultaneously. To separate official, business, personal, and healthcare correspondence, AEMS provides the flexibility to exchange email correspondence according to various criteria between appropriate resource mailbox service providers. 
+* Usability: The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. To separate official, business, personal, and healthcare correspondence, AEMS provides the flexibility to exchange email correspondence according to various criteria between appropriate resource mailbox service providers. 
 * Platform: With the capability to store, locate, send and receive any content, including documents, images, audios, and videos, the proposed solution can be considered a promising platform for Content Services.
 
 ## References
 
 <p class="references">
-[1]&nbsp;I. Zboran “Correlated Authorization” GitHub repository https://github.com/umalabs/correlated-authorization/raw/main/Correlated_Authorization.pdf.<br>
+[1]&nbsp;I. Zboran, "Correlated Authorization," GitHub repository https://github.com/umalabs/correlated-authorization/raw/main/Correlated_Authorization.pdf.<br>
 </p>
