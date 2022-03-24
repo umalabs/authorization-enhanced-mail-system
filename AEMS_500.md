@@ -30,7 +30,7 @@ Fig.&nbsp;1.&emsp;Concept
 ## Advantages over Standard Mail System
 
 * Security and Privacy: User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
-* Usability: The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. To separate official, business, personal, and healthcare correspondence, AEMS provides the flexibility to exchange email correspondence according to various criteria between appropriate resource mailbox service providers. 
+* Usability and Privacy: The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. Thus, AEMS can keep official, business, personal, and healthcare correspondence separately in designated resource mailboxes. 
 * Platform: With the capability to store, locate, send and receive any content, including documents, images, audios, and videos, the proposed solution can be considered a promising platform for Content Services.
 
 ## References
