@@ -9,11 +9,11 @@
 
 ## Introduction
 
-This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
+&emsp;This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
 
 ## Concept
 
- AEMS follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
+ &emsp;AEMS follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -24,8 +24,8 @@ Fig.&nbsp;1.&emsp;Concept
 ## Key points
 
 * An email is comprised of resources (message and attachments) stored in a resource mailbox—an email-specific resource server.
-* The email resources owned by the sender, stored in a sender’s resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resources identifier (resources URI) is sent to the recipient through the standard email system.
-* The recipient’s resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
+* The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resources identifier (resources URI) is sent to the recipient through the standard email system.
+* The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
 
 ## Advantages over Standard Mail System
 
