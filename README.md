@@ -44,7 +44,7 @@
 
 #### *B. Concept*
 
-&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
+&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -76,7 +76,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 ## V. Conclusion
 
-&emsp;AEMS can play an essential role in communication across various industries in the public and private sectors. Consolidation of a repository, communication, and identity represents a central source of information within any organization.
+&emsp;AEMS can play an essential role in communication across various industries in the public and private sectors.
 
 #### *A. Overall Summary*
 
@@ -91,7 +91,6 @@ Fig.&nbsp;1.&emsp;Concept
 * Consider a Consent mechanism extension design.
 * Design an extension for exchanging tagged messages and attachments.
 * Design an attachment versioning extension.
-* Incorporate an electronic mailing/discussion list system into the proposed solution to extend the basic email functionality.
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
 
