@@ -44,7 +44,7 @@
 
 #### *B. Concept*
 
-&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
+&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application can access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -80,11 +80,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *A. Overall Summary*
 
-&emsp;The combination of Correlated Authorization [1] with the mail system creates a hybrid architecture that meets the needs of a modern communication tool. The proposed solution can be used as a Content Services platform to provide the e-records storage, exchange, and retrieval system protected by the standardized authorization framework utilized by users through the email application.
+&emsp;Combining the Correlated Authorization [1] trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool. The proposed solution can be used as a Content Services platform to provide the e-records storage, exchange, and retrieval system protected by the standardized authorization framework utilized by users through the email application.
 
 #### *B. Future Work*
 
-&emsp;The Correlated Authorization [1] framework brings a web-based data storage and exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool.
+&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and data exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool.
 
 &emsp;The following are potential future R&D areas:
 
