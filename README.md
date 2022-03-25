@@ -11,7 +11,7 @@
 &emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
 </p>
 <p class="abstract">
-&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Correlated Authorization [1] mail trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
+&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Correlated Authorization [1] trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
 </p>
 
 ## I. Introduction
@@ -52,17 +52,48 @@
 Fig.&nbsp;1.&emsp;Concept
 </p>
 
-## Key points
+#### *C. Key Points*
 
-* An email is comprised of resources (message and attachments) stored in a resource mailbox—an email-specific resource server.
-* The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resources identifier (resources URI) is sent to the recipient through the standard email system.
-* The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
+• An email is comprised of resources (message and attachments) stored in a resource mailbox—an email-specific resource server.
 
-## Advantages over Standard Mail System
+• The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resources identifier (resources URI) is sent to the recipient through the standard email system.
 
-* Security and Privacy: User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
-* Usability and Privacy: The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. Thus, AEMS can keep official, business, personal, and healthcare correspondence separately in designated resource mailboxes. 
-* Platform: With the capability to store, locate, send and receive any content, including documents, images, audios, and videos, the proposed solution can be considered a promising platform for Content Services.
+• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
+
+## IV. Advantages over Standard Mail System
+
+#### *A. Security and Privacy*
+
+&emsp;User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
+
+#### *B. Usability and Privacy*
+
+&emsp;The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. Thus, AEMS can keep official, business, personal, and healthcare correspondence separately in designated resource mailboxes. 
+
+#### *C. Platform*
+
+&emsp;With the capability to store, locate, send and receive any content, including documents, images, audios, and videos, the proposed solution can be considered a promising platform for Content Services.
+
+## V. Conclusion
+
+&emsp;AEMS can play an essential role in communication across various industries in the public and private sectors. Consolidation of a repository, communication, and identity represents a central source of information within any organization.
+
+#### *A. Overall Summary*
+
+&emsp;The combination of Correlated Authorization [1] with the mail system creates a hybrid architecture that meets the needs of a modern communication tool. The proposed solution can be used as a Content Services platform to provide the e-records storage, exchange, and retrieval system protected by the standardized authorization framework utilized by users through the email application.
+
+#### *B. Future Work*
+
+&emsp;The Correlated Authorization [1] framework brings a web-based data storage and exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool.
+
+&emsp;The following are potential future R&D areas:
+
+* Consider a Consent mechanism extension design.
+* Design an extension for exchanging tagged messages and attachments – grouping content across the business.
+* Design an attachment versioning extension – managing the attachment content changes.
+* Incorporate an electronic mailing/discussion list system into the proposed solution to extend the basic email functionality.
+
+&emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
 
 ## References
 
