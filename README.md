@@ -36,7 +36,7 @@
 
 ## III. Proposed Solution
 
-&emsp;Given that the current mail system is lagging behind modern communication and collaboration tools, we propose implementing the Correlated Authorization [1] mail trust framework into the email ecosystem to enhance the usability and security of the mail system.
+&emsp;Given that the current mail system is lagging behind modern communication and collaboration tools, we propose implementing the Correlated Authorization [1] trust framework into the email ecosystem to enhance the usability and security of the mail system.
 
 #### *A. Motivation*
 
@@ -89,8 +89,8 @@ Fig.&nbsp;1.&emsp;Concept
 &emsp;The following are potential future R&D areas:
 
 * Consider a Consent mechanism extension design.
-* Design an extension for exchanging tagged messages and attachments – grouping content across the business.
-* Design an attachment versioning extension – managing the attachment content changes.
+* Design an extension for exchanging tagged messages and attachments.
+* Design an attachment versioning extension.
 * Incorporate an electronic mailing/discussion list system into the proposed solution to extend the basic email functionality.
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
