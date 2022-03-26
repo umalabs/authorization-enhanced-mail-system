@@ -56,7 +56,9 @@ Fig.&nbsp;1.&emsp;Concept
 
 • An email is comprised of resources (message and attachments) stored in a resource mailbox—an email-specific resource server.
 
-• The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email with the email resources identifier (resources URI) is sent to the recipient through the standard email system.
+• The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, and the category of correspondence, e.g., personal, business, healthcare.
+
+• After receiving the notification email, the recipient's email application determines which resource mailbox will be used for communication according to the correspondence category.
 
 • The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
 
@@ -80,16 +82,13 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *A. Overall Summary*
 
-&emsp;Combining the Correlated Authorization [1] trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool. The proposed solution can be used as a Content Services platform to provide the e-records storage, exchange, and retrieval system protected by the standardized authorization framework utilized by users through the email application.
+&emsp;Combining the Correlated Authorization [1] trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool.
 
 #### *B. Future Work*
 
-&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and data exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool.
-
-&emsp;The following are potential future R&D areas:
+&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and data exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
 * Consider a Consent mechanism extension design.
-* Design an extension for exchanging tagged messages and attachments.
 * Design an attachment versioning extension.
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
