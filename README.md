@@ -28,11 +28,15 @@
 
 #### *B. Functional and Security Flaws*
 
-&emsp;Even though the major email service providers claim email accounts to be safe, the fact remains that fundamental security and functional flaws are not fixed. There is still a dichotomy of attachments delivery; bulky files are not transferred as an attachment but are shared via links. An "attachment sharing" is not natural for mail systems where each message with attachments is expected to be time-consistent. Shared links pose a consent phishing attack threat, where an attacker tricks users into granting malicious application access to sensitive resources. This attack is known as an OAuth 2.0 authorization exploit.
+&emsp;Even though the major email service providers claim their email services to be safe, the fact remains that fundamental security and functional flaws are not fixed. There is still a dichotomy of attachments delivery; bulky files are not transferred as an attachment but are shared via links. An "attachment sharing" is not natural for mail systems where each message with attachments is expected to be time-consistent. Shared links pose a consent phishing attack threat, where an attacker tricks users into granting malicious application access to sensitive resources. This attack is known as an OAuth 2.0 authorization exploit.
 
 #### *C. Confidentiality and Privacy*
 
 &emsp;Now, if we (as users) want to use a single email address, we have no choice but to use one mail service provider for all categories of communication. Information about every email we send or receive—"buying a car or a home, applying for a loan, taking out insurance, purchasing potato chips, requesting a government grant, getting turned down for credit, going to work, seeing a doctor" [5]—is routed through a single mail service provider. We can call it a One-Address-Fits-All privacy issue.
+
+#### *D. Content Repository*
+
+&emsp;The current mail system is missing a Personal Content Repository—a personal "file system on steroids" with the capability to create, store, locate, send, receive, and share any content.
 
 ## III. Proposed Solution
 
@@ -44,7 +48,7 @@
 
 #### *B. Concept*
 
-&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data.
+&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and at the same time mirror the existing email infrastructure by creating the parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data. The resource mailbox server should provide content services.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -54,15 +58,17 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *C. Key Points*
 
-• An email is comprised of resources (message and attachments) stored in a resource mailbox—an email-specific resource server.
+• An email is comprised of resources (message and attachments) stored in a resource mailbox—on an email-specific resource server.
 
 • The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, and the category of correspondence, e.g., personal, business, healthcare.
 
-• After receiving the notification email, the recipient's email application determines which resource mailbox will be used for communication according to the correspondence category.
+• After receiving the notification email, the recipient's email application determines which of its resource mailboxes will be used for communication according to the correspondence category.
 
 • The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
 
 ## IV. Advantages over Standard Mail System
+
+&emsp;AEMS has several decisive advantages over the current mail system.
 
 #### *A. Security and Privacy*
 
@@ -70,11 +76,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *B. Usability and Privacy*
 
-&emsp;The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes simultaneously. Thus, AEMS can keep official, business, personal, and healthcare correspondence separately in designated resource mailboxes. 
+&emsp;The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately in designated resource servers. Thus, some critical data may never leave its resource server. 
 
-#### *C. Platform*
+#### *C. Content Repository*
 
-&emsp;With the capability to store, locate, send and receive any content, including documents, images, audios, and videos, the proposed solution can be considered a promising platform for Content Services.
+&emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising Personal Content Repository.
 
 ## V. Conclusion
 
@@ -86,7 +92,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *B. Future Work*
 
-&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and data exchange technology into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
+&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
 * Consider a Consent mechanism extension design.
 * Design an attachment versioning extension.
