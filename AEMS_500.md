@@ -26,13 +26,13 @@ Fig.&nbsp;1.&emsp;Concept
 
 • An email is comprised of resources (message and attachments) stored in a resource mailbox—on an email-specific resource server.
 • The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, and the category of correspondence, e.g., personal, business, healthcare.
-•  After receiving the notification email, the recipient's email application determines which of its resource mailboxes will be used for communication according to the category of correspondence.
-• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
+•  After receiving the notification email, the recipient's email application determines which of its resource mailboxes, designated by the recipient, will be used for communication according to the category of correspondence.
+• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data is stored in the recipient resource mailbox.
 
 ## Advantages compared to Standard Mail System
 
 **Security and Privacy:** User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
-**Usability and Privacy:** The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately on designated resource servers. This principle implies that some critical data stored in this manner never leave its resource server. 
+**Usability and Privacy:** The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately on designated resource servers; the practical effect is that some critical data stored in this way never leave its resource server.
 **Content Repository:** With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising Personal Content Repository.
 
 ## References

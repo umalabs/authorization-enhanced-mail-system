@@ -62,9 +62,9 @@ Fig.&nbsp;1.&emsp;Concept
 
 • The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, and the category of correspondence, e.g., personal, business, healthcare.
 
-• After receiving the notification email, the recipient's email application determines which of its resource mailboxes will be used for communication according to the category of correspondence.
+• After receiving the notification email, the recipient's email application determines which of its resource mailboxes, designated by the recipient, will be used for communication according to the category of correspondence.
 
-• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data are stored in the recipient resource mailbox.
+• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data is stored in the recipient resource mailbox.
 
 ## V. Advantages compared to Standard Mail System
 
@@ -76,7 +76,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *B. Usability and Privacy*
 
-&emsp;The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately on designated resource servers. This principle implies that some critical data stored in this manner never leave its resource server.
+&emsp;The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately on designated resource servers; the practical effect is that some critical data stored in this way never leave its resource server.
 
 #### *C. Content Repository*
 
