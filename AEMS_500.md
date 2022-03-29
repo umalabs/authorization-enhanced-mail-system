@@ -33,7 +33,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 **Security and Privacy:** User correspondence takes place between resource mailboxes. The user mailbox of the standard mail system is only used for the system (registration, notification) emails. This architecture guarantees more control over potential security and privacy issues such as leakage of intellectual property or loss of confidential content. Moreover, the user decides from whom or not to accept the email and thus protects his email address from spam.
 **Usability and Privacy:** The resource mailbox is decoupled from the user's email address. This separation allows a user with a single email address to use multiple resource mailboxes side by side. Therefore, AEMS can keep official, business, personal, and healthcare correspondence separately on designated resource servers; the practical effect is that some critical data stored in this way never leave its resource server.
-**Content Repository:** With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising Personal Content Repository.
+**Content Repository:** With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising private content repository.
 
 <p class="references">
 [1]&nbsp;I. Zboran, "Correlated Authorization," GitHub repository, March 2022, https://github.com/umalabs/correlated-authorization/releases/download/v0.1/Correlated_Authorization.pdf.<br>
