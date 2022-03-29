@@ -28,7 +28,7 @@
 
 #### *A. Functional and Security Flaws*
 
-&emsp;Even though the major email service providers claim their email services to be safe, the fact remains that fundamental security and functional flaws are not fixed. There is still a dichotomy of attachments delivery; bulky files are not transferred as an attachment but are shared via links. An "attachment sharing" is not natural for mail systems where each message with attachments is expected to be time-consistent. Shared links pose a consent phishing attack threat, where an attacker tricks users into granting malicious application access to sensitive resources. This attack exploits an OAuth 2.0 consent mechanism to steal an access token.
+&emsp;Even though the major email service providers claim their email services to be safe, the fact remains that fundamental security and functional flaws are not fixed. There is still a dichotomy of attachments delivery; bulky files are not transferred as an attachment but are shared via links. An "attachment sharing" is not natural for the mail system, where each message with attachments is expected to be time-consistent. Shared links pose a consent phishing attack threat, where an attacker tricks users into granting malicious application access to sensitive resources. This attack exploits an OAuth 2.0 consent mechanism to steal an access token.
 
 #### *B. Confidentiality and Privacy*
 
@@ -44,7 +44,7 @@
 
 #### *A. Motivation*
 
-&emsp;Email, still the most popular communication tool, lacks an essential part of today's modern communications systems—a trust framework. Understanding this led us to implement a trust framework into the email ecosystem. At the core of the proposed solution is an attempt to improve the usability of email—not only as an interpersonal communication tool but also as the default choice to send and store files.
+&emsp;Email, still the most popular communication tool, lacks an essential part of today's modern communications systems—a trust framework. Understanding this led us to incorporate a trust framework into the email ecosystem. At the core of the proposed solution is an attempt to improve the usability of email—not only as an interpersonal communication tool but also as the default choice to send and store files.
 
 #### *B. Concept*
 
@@ -80,7 +80,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *C. Private Content Repository*
 
-&emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising private content repository.
+&emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising foundation for the private content repository.
 
 ## VI. Conclusion
 
@@ -95,7 +95,7 @@ Fig.&nbsp;1.&emsp;Concept
 &emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
 * Consider a consent mechanism design.
-* Design an attachment versioning mechanism.
+* Design an attachment version management system.
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
 
