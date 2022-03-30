@@ -34,9 +34,19 @@
 
 &emsp;Now, if we (as users) want to use a single email address, we have no choice but to use one mail service provider for all categories of communication. Information about every email we send or receive—"buying a car or a home, applying for a loan, taking out insurance, purchasing potato chips, requesting a government grant, getting turned down for credit, going to work, seeing a doctor" [5]—is routed through a single mail service provider. We can call it a One-Address-Fits-All privacy issue.
 
-#### *C. Email Archiving*
+#### *C. Hyperlinks to Files*
 
-TBD
+&emsp;Documents, images, video, and audio should be an integral part of the email. The concept of keeping a recipient-owned copy of the sender's files is critical in some industries. List of issues with hyperlinks to files in email messages:
+
+* expired, unknown, blocked, phishing, or malicious hyperlink
+* masked hyperlink target using a URL shortener
+* target updated – not the version it is expected
+* target changed – forgery
+* target encrypted – need a password
+* access control – requires signup or sign in
+* consent phishing attack
+
+Given these points—You are buying a "pig in a poke" with each hyperlink to the file in the email message.
 
 #### *D. Content Repository*
 
@@ -84,7 +94,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *C. Private Content Repository*
 
-&emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising foundation for the private content repository.
+&emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, video, and audio, the proposed solution can be considered a promising foundation for the private content repository.
 
 ## VI. Examples and Use Patterns
 
