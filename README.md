@@ -16,7 +16,7 @@
 
 ## I. Introduction
 
-&emsp;The main components of the mail system were designed between 1971 and 1992 by many inventors. Over time, email has become the most commonly used Internet application. Nowadays, email is the only truly decentralized communication system on the Internet, and the email infrastructure forms the backbone of the worldwide digital identity.
+&emsp;The main components of the mail system were designed between the early 1970s and mid-1990s by many inventors. Over time, email has become the most commonly used Internet application. Nowadays, email is the only truly decentralized communication system on the Internet, and the email infrastructure forms the backbone of the worldwide digital identity.
 
 ## II. Current Situation
 
@@ -60,11 +60,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 • An email is comprised of resources (message and attachments) stored in a resource mailbox—on an email-specific resource server.
 
-• The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, and the category of correspondence, e.g., personal, business, healthcare.
+• The email resources owned by the sender, stored in a sender's resource mailbox, are temporarily shared with the recipient. Following a successful sharing process, a notification email is sent to the recipient through the standard email system. The notification email contains the identifier of shared email resources—URI, the digital signature of shared email resources, and the category of correspondence, e.g., personal, business, healthcare.
 
 • After receiving the notification email, the recipient's email application determines which of its resource mailboxes, designated by the recipient, will be used for communication according to the category of correspondence.
 
-• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data is stored in the recipient resource mailbox.
+• The recipient's resource retrieval agent, which acts on behalf of the recipient, gets the resources URI and digital signature from the email application, gets delegated access from the sender authorization server using an authorization grant, and retrieves the email resources from the sender resource mailbox. The retrieved data is stored in the recipient resource mailbox and verified against the digital signature.
 
 ## V. Advantages compared to Standard Mail System
 
