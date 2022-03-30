@@ -34,7 +34,11 @@
 
 &emsp;Now, if we (as users) want to use a single email address, we have no choice but to use one mail service provider for all categories of communication. Information about every email we send or receive—"buying a car or a home, applying for a loan, taking out insurance, purchasing potato chips, requesting a government grant, getting turned down for credit, going to work, seeing a doctor" [5]—is routed through a single mail service provider. We can call it a One-Address-Fits-All privacy issue.
 
-#### *C. Content Repository*
+#### *C. Email Archiving*
+
+TBD
+
+#### *D. Content Repository*
 
 &emsp;The current mail system is missing a private content repository—a private "file system on steroids" with the capability to create, store, locate, send, receive, and share any content.
 
@@ -82,7 +86,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 &emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, audios, and videos, the proposed solution can be considered a promising foundation for the private content repository.
 
-## VI. Conclusion
+## VI. Examples and Use Patterns
+
+TBD
+
+## VII. Conclusion
 
 &emsp;AEMS can play an essential role in communication across various industries in the public and private sectors.
 
