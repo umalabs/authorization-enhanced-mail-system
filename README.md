@@ -96,9 +96,17 @@ Fig.&nbsp;1.&emsp;Concept
 
 &emsp;With the capability to create, store, locate, send, receive, and share any content, including documents, images, video, and audio, the proposed solution can be considered a promising foundation for the private content repository.
 
-## VI. Examples and Use Patterns
+## VI. Models and Scenarios
 
-TBD
+&emsp;Although AEMS can be integrated with any email service provider, we slightly digress to introduce two visionary models of what a global email infrastructure might look like in the future.
+
+#### *A. Estonian Model*
+
+&emsp;In this model, the government provides email services with user mailboxes. To avoid the risk of governmental surveillance, AEMS allows citizens to use non-governmental resource mailboxes from financial institutions, healthcare providers, etc. Using non-governmental, sector-specific resource mailboxes increases privacy for individual citizens, as the government cannot obtain detailed information about their activities.
+
+#### *B. Postal Model*
+
+&emsp;TBD
 
 ## VII. Conclusion
 
