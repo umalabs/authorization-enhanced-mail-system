@@ -98,15 +98,15 @@ Fig.&nbsp;1.&emsp;Concept
 
 ## VI. Models and Scenarios
 
-&emsp;Although AEMS can be integrated with any email service provider, we slightly digress to introduce two visionary models of what a global email infrastructure might look like in the future.
+&emsp;Although AEMS can be integrated into the email system of any email service provider, we slightly digress to introduce two visionary models of what a global email ecosystem might look like in the future.
 
 #### *A. Estonian Model*
 
-&emsp;In this model, the government provides email services with user mailboxes. To avoid the risk of governmental surveillance, AEMS allows citizens to use non-governmental resource mailboxes from financial institutions, healthcare providers, etc. Using non-governmental, sector-specific resource mailboxes increases privacy for individual citizens, as the government cannot obtain detailed information about their activities.
+&emsp;In this model, the government provides email services with user mailboxes. To avoid the risk of governmental surveillance, AEMS allows citizens to use the non-governmental resource mailboxes from financial institutions, healthcare providers, etc. Using non-governmental, sector-specific resource mailboxes increases the privacy of individual citizens, as the government cannot obtain detailed information about their activities.
 
 #### *B. Postal Model*
 
-&emsp;TBD
+&emsp;According to UPU research, more than 93% of postal operators provide some form of digital postal service either directly or in partnership with other companies [10]. AEMS allows postal operators to expand and become public email service providers or innovate their existing email services and provide the user mailbox services with the ability to attach the resource mailboxes from the government as well as other institutions and organizations. 
 
 ## VII. Conclusion
 
@@ -141,4 +141,5 @@ Fig.&nbsp;1.&emsp;Concept
 [7]&nbsp;"User-Managed Access" Work Group at "Kantara Initiative," https://kantarainitiative.org/confluence/display/uma/Home.<br>
 [8]&nbsp;"The WG-UMA Archives," https://kantarainitiative.org/pipermail/wg-uma/.<br>
 [9]&nbsp;"Kantara Initiative User-Managed Access WG," https://groups.google.com/g/kantara-initiative-uma-wg.<br>
+[10]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services
 </p>
