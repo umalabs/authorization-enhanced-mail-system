@@ -141,5 +141,5 @@ Fig.&nbsp;1.&emsp;Concept
 [7]&nbsp;"User-Managed Access" Work Group at "Kantara Initiative," https://kantarainitiative.org/confluence/display/uma/Home.<br>
 [8]&nbsp;"The WG-UMA Archives," https://kantarainitiative.org/pipermail/wg-uma/.<br>
 [9]&nbsp;"Kantara Initiative User-Managed Access WG," https://groups.google.com/g/kantara-initiative-uma-wg.<br>
-[10]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services
+[10]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
 </p>
