@@ -106,7 +106,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *B. Postal Model*
 
-&emsp;According to UPU research, more than 93% of postal operators provide some form of digital postal service either directly or in partnership with other companies [10]. AEMS allows postal operators to expand and become public email service providers or innovate their existing email services and provide the user mailbox services with the ability to attach the resource mailboxes from the government as well as other institutions and organizations. 
+&emsp;According to UPU research, more than 93% of postal operators provide some form of digital postal service either directly or in partnership with other companies [7]. AEMS allows postal operators to expand and become public email service providers or innovate their existing email services and provide the user mailbox services with the ability to attach the resource mailboxes from the government as well as other institutions and organizations. 
 
 ## VII. Conclusion
 
@@ -127,7 +127,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 ## Acknowledgment
 
-&emsp;This work has benefited from the valuable discussions with Eve Maler, founder of WG-UMA [7], and Alec Laws, chair of WG-UMA [7]. Both gave feedback that improved this paper's content. Last but not least, the UMA Work Group archives [8, 9] serve as a source of comprehensive information on authorization-related topics—many thanks to all involved.
+&emsp;This work has benefited from the valuable discussions with Eve Maler, founder of WG-UMA [8], and Alec Laws, chair of WG-UMA [8]. Both gave feedback that improved this paper's content. Last but not least, the UMA Work Group archives [9, 10] serve as a source of comprehensive information on authorization-related topics—many thanks to all involved.
 
 ## References
 
@@ -138,8 +138,8 @@ Fig.&nbsp;1.&emsp;Concept
 [4]&nbsp;E. D. Hardt, "The OAuth 2.0 Authorization Framework," IETF RFC 6749 (Informational), 2012, http://tools.ietf.org/html/rfc6749.<br>
 [5]&nbsp;M. Jones, A. Nadalin, B. Campbell, J. Bradley, C. Mortimore, "OAuth 2.0 Token Exchange," RFC 8693 (2020), https://rfc-editor.org/rfc/rfc8693.txt.<br>
 [6]&nbsp;Jeffrey Rothfeder. 1992. Privacy for Sale: How Computerization Has Made Everyone's Private Life an Open Secret (pp. 22-23). Simon & Schuster Trade.<br>
-[7]&nbsp;"User-Managed Access" Work Group at "Kantara Initiative," https://kantarainitiative.org/confluence/display/uma/Home.<br>
-[8]&nbsp;"The WG-UMA Archives," https://kantarainitiative.org/pipermail/wg-uma/.<br>
-[9]&nbsp;"Kantara Initiative User-Managed Access WG," https://groups.google.com/g/kantara-initiative-uma-wg.<br>
-[10]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
+[7]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
+[8]&nbsp;"User-Managed Access" Work Group at "Kantara Initiative," https://kantarainitiative.org/confluence/display/uma/Home.<br>
+[9]&nbsp;"The WG-UMA Archives," https://kantarainitiative.org/pipermail/wg-uma/.<br>
+[10]&nbsp;"Kantara Initiative User-Managed Access WG," https://groups.google.com/g/kantara-initiative-uma-wg.<br>
 </p>
