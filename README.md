@@ -120,7 +120,7 @@ Fig.&nbsp;1.&emsp;Concept
 
 &emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
-* Explore and describe the forwarding process.
+* Explore and describe the forwarding mechanism.
 * Consider a consent mechanism design.
 * Design an attachment version management system.
 
