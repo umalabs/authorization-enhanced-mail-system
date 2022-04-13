@@ -8,10 +8,10 @@
 </p>
 
 <p class="abstract">
-&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
+&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the zero-trust framework, Correlated Authorization [1], can improve the current mail system.
 </p>
 <p class="abstract">
-&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Correlated Authorization [1] trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4, 5] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
+&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Correlated Authorization [1] zero-trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4, 5] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
 </p>
 
 ## I. Introduction
@@ -54,7 +54,7 @@ Given these points—You are buying a "pig in a poke" with each hyperlink to the
 
 ## IV. Proposed Solution
 
-&emsp;Given that the current mail system is lagging behind modern communication and collaboration tools, we propose implementing the Correlated Authorization [1] trust framework into the email ecosystem to enhance the usability and security of the mail system.
+&emsp;Given that the current mail system is lagging behind modern communication and collaboration tools, we propose implementing the Correlated Authorization [1] zero-trust framework into the email ecosystem to enhance the usability and security of the mail system.
 
 #### *A. Motivation*
 
@@ -62,7 +62,7 @@ Given these points—You are buying a "pig in a poke" with each hyperlink to the
 
 #### *B. Concept*
 
-&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and, at the same time, mirror the existing email infrastructure by creating a parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data. Mailboxes running on the resource servers will use the content repository as a storage engine.
+&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] zero-trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and, at the same time, mirror the existing email infrastructure by creating a parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data. Mailboxes running on the resource servers will use the content repository as a storage engine.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -114,11 +114,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *A. Overall Summary*
 
-&emsp;Combining the Correlated Authorization [1] trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool.
+&emsp;Combining the Correlated Authorization [1] zero-trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool.
 
 #### *B. Future Work*
 
-&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
+&emsp;The Correlated Authorization [1] zero-trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
 * Explore and describe the forwarding mechanism.
 * Consider a consent mechanism design.
