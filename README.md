@@ -123,6 +123,7 @@ Fig.&nbsp;1.&emsp;Concept
 * Explore and describe the forwarding mechanism.
 * Consider a consent mechanism design.
 * Design an attachment version management system.
+* Replace SMTP with HTTP to unify cross-domain communication protocols.
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
 
