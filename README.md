@@ -8,10 +8,10 @@
 </p>
 
 <p class="abstract">
-&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the trust framework, Correlated Authorization [1], can improve the current mail system.
+&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the Identity Propagation Trust Framework [1], can improve the current mail system.
 </p>
 <p class="abstract">
-&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Correlated Authorization [1] trust framework—built on top of User-Managed Access (UMA) [2, 3] and OAuth 2.0 [4, 5] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
+&emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the Identity Propagation Trust Framework [1] framework—built on top of OIDC [2, 3] and OAuth 2.0 [4, 5] protocols—is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
 </p>
 
 ## I. Introduction
@@ -62,7 +62,7 @@ Given these points—You are buying a "pig in a poke" with each hyperlink to the
 
 #### *B. Concept*
 
-&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Correlated Authorization [1] while keeping compatibility with the standard mail system. We propose to integrate the Correlated Authorization [1] trust framework with the mail system using a standardized SMTP/POP3/IMAP interface and, at the same time, mirror the existing email infrastructure by creating a parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data. Mailboxes running on the resource servers will use the content repository as a storage engine.
+&emsp;Authorization-Enhanced Mail System (AEMS) follows the concept of Identity Propagation Trust Framework [1] while keeping compatibility with the standard mail system. We propose to integrate the Identity Propagation Trust Framework [1] with the mail system using a standardized SMTP/POP3/IMAP interface and, at the same time, mirror the existing email infrastructure by creating a parallel system of resource mailboxes. A web-based email application will access the resource mailbox, as illustrated in Figure 1. AEMS uses a two-way push-pull data transfer mechanism—SMTP protocol for push data and HTTP protocol for pull data. Mailboxes running on the resource servers will use the content repository as a storage engine.
 
 ![Authorization-Enhanced Mail System](./images/concept.svg)
 
@@ -114,11 +114,11 @@ Fig.&nbsp;1.&emsp;Concept
 
 #### *A. Overall Summary*
 
-&emsp;Combining the Correlated Authorization [1] trust framework with the mail system creates a hybrid architecture that meets the needs of a modern communication tool.
+&emsp;Combining the Identity Propagation Trust Framework [1] with the mail system creates a hybrid architecture that meets the needs of a modern communication tool.
 
 #### *B. Future Work*
 
-&emsp;The Correlated Authorization [1] trust framework brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
+&emsp;The Identity Propagation Trust Framework [1] brings a web-based data storage and a new data exchange mechanism into the email ecosystem that predestines the proposed system to become more than a bare messaging tool. The following are potential future R&D areas:
 
 * Explore and describe the forwarding mechanism.
 * Consider a consent mechanism design.
@@ -127,21 +127,14 @@ Fig.&nbsp;1.&emsp;Concept
 
 &emsp;A prototype implementation of the proposed solution would be interesting to build, which would serve as a proof of concept.
 
-## Acknowledgment
-
-&emsp;This work has benefited from the valuable discussions with Eve Maler, founder of WG-UMA [8], and Alec Laws, chair of WG-UMA [8]. Both gave feedback that improved this paper's content. Last but not least, the UMA Work Group archives [9, 10] serve as a source of comprehensive information on authorization-related topics—many thanks to all involved.
-
 ## References
 
 <p class="references">
-[1]&nbsp;I. Zboran, "Correlated Authorization," GitHub repository, March 2022, https://github.com/umalabs/correlated-authorization/releases/download/v0.1/Correlated_Authorization.pdf.<br>
-[2]&nbsp;E. Maler, M. Machulak, J. Richer, and T. Hardjono, "User-Managed Access (UMA) 2.0 Grant for OAuth 2.0 Authorization," Internet Engineering Task Force (2019), https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html.<br>
-[3]&nbsp;E. Maler, M. Machulak, J. Richer, and T. Hardjono, "Federated Authorization for User-Managed Access (UMA) 2.0," Internet Engineering Task Force (2019), https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-federated-authz-2.0.html.<br>
+[1]&nbsp;I. Zboran, "Identity Propagation Trust Framework," GitHub repository, May 2022, https://github.com/umalabs/identity-propagator.<br>
+[2]&nbsp;Sakimura, N, Bradley, J, de Medeiros, B, and Mortimore, C, “OpenID Connect Core 1.0 incorporating errata set 1,” Nov-2014. [Online]. Available: http://openid.net/specs/openid-connect-core1_0.html.<br>
+[3]&nbsp;“Final: OpenID Connect Discovery 1.0 incorporating errata set 1.” [Online]. Available: https://openid.net/specs/openid-connectdiscovery-1_0.html.<br>
 [4]&nbsp;E. D. Hardt, "The OAuth 2.0 Authorization Framework," IETF RFC 6749 (Informational), 2012, http://tools.ietf.org/html/rfc6749.<br>
 [5]&nbsp;M. Jones, A. Nadalin, B. Campbell, J. Bradley, C. Mortimore, "OAuth 2.0 Token Exchange," RFC 8693 (2020), https://rfc-editor.org/rfc/rfc8693.txt.<br>
 [6]&nbsp;Jeffrey Rothfeder. 1992. Privacy for Sale: How Computerization Has Made Everyone's Private Life an Open Secret (pp. 22-23). Simon & Schuster Trade.<br>
 [7]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
-[8]&nbsp;"User-Managed Access" Work Group at "Kantara Initiative," https://kantarainitiative.org/confluence/display/uma/Home.<br>
-[9]&nbsp;"The WG-UMA Archives," https://kantarainitiative.org/pipermail/wg-uma.<br>
-[10]&nbsp;"Kantara Initiative User-Managed Access WG," https://groups.google.com/g/kantara-initiative-uma-wg.<br>
 </p>

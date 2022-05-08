@@ -1,1 +1,0 @@
-gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=Authorization-Enhanced_Mail_System_500.pdf AEMS_500.pdf pdfmarks-AEMS_500
