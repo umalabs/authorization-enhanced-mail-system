@@ -8,7 +8,7 @@
 </p>
 
 <p class="abstract">
-&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the Identity Propagation Service (IPS) [1], can improve the current mail system.
+&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the Identity Propagation System (IPS) [1], can improve the current mail system.
 </p>
 <p class="abstract">
 &emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the IPS is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
@@ -130,7 +130,7 @@ Fig.&nbsp;1.&emsp;Concept — data flow
 ## References
 
 <p class="references">
-[1]&nbsp;I. Zboran, "Identity Propagation Service," GitHub repository, May 2022, https://github.com/umalabs/identity-propagator.<br>
+[1]&nbsp;I. Zboran, "Identity Propagator," GitHub repository, May 2022, https://github.com/umalabs/identity-propagator.<br>
 [2]&nbsp;Jeffrey Rothfeder. 1992. Privacy for Sale: How Computerization Has Made Everyone's Private Life an Open Secret (pp. 22-23). Simon & Schuster Trade.<br>
 [3]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
 </p>
