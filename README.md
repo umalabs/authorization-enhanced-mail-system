@@ -8,7 +8,7 @@
 </p>
 
 <p class="abstract">
-&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how the Identity Propagation System (IPS) [1], can improve the current mail system.
+&emsp;<strong><em>Abstract</em></strong>—This paper intends to explain how an Identity Propagation System (IPS) [1], can improve the current mail system.
 </p>
 <p class="abstract">
 &emsp;Electronic mail (email) is the most pervasive form of business information exchange. Email is being used not only as an interpersonal communication tool but also as a "default choice" for sending files. In this paper, the IPS is proposed to overcome the data storage, access control, and data transfer limitations of the current mail system.
