@@ -130,7 +130,7 @@ Fig.&nbsp;1.&emsp;Concept — data flow
 ## References
 
 <p class="references">
-[1]&nbsp;I. Zboran, "Identity Propagator," GitHub repository, May 2022, https://github.com/umalabs/identity-propagator.<br>
+[1]&nbsp;I. Zboran, "Identity Propagation and Assertions," GitHub repository, June 2022, https://github.com/umalabs/identity-propagation-and-assertions.<br>
 [2]&nbsp;Jeffrey Rothfeder. 1992. Privacy for Sale: How Computerization Has Made Everyone's Private Life an Open Secret (pp. 22-23). Simon & Schuster Trade.<br>
 [3]&nbsp;Universal Postal Union/Activities/Digital Services, accessed 4 April 2022, https://www.upu.int/en/Universal-Postal-Union/Activities/Digital-Services.<br>
 </p>
